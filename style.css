@@ -8,7 +8,9 @@
 body{
     /* height: 100vh; */
     background-color:#F1F8FF;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh; /* it will give the 100% height but will increase if needed */ 
+    
 }
 .navbar-nav{
     /* float it to right */
@@ -23,10 +25,11 @@ body{
     background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(./images/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+
     /* position: relative; */
     color: white;
+    min-height: 100vh;
 
 }
 .navbar-brand  .text-primary{
@@ -51,14 +54,29 @@ body{
     margin-bottom: 10px;
 }
 
-.panel-body > .custom-btn{
+.custom-btn{
     background-color: #FEA116;
-    color: white;
+    color: white !important;
+    margin-inline: auto;
 }
 
 .hero-image{
-    max-width: 500px;
+    max-width: 490px;
+    overflow: hidden;
 }
-.hero-image img{
-    max-width: 100%;
+.hero-image > img{
+    width: 100%;
+    animation: rotation 50s infinite linear;
+    border-radius: 50%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
 }
