@@ -19,10 +19,18 @@ body{
 }
 .navbar-nav a{
     color: white;
+    border-bottom:2px solid transparent ;
+}
+.navbar-nav a:hover{
+    border-bottom: 2px solid #FEA116;
+    transition: ease 0.2s;
+}
+.navbar-nav a.active{
+    border-bottom: 2px solid #FEA116;
 }
 
 .main-bg{
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(./images/bg-hero.jpg);
+    background-image:linear-gradient(rgb(15, 23, 43,0.9),rgb(15, 23, 43,0.9)),url(./images/bg-hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,4 +87,15 @@ body{
       to {
         transform: rotate(359deg);
       }
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* menu page */
+
+.section-tile h3{
+    font-size: 18px;
+    color: #FEA116;
+}
+.section-tile h1{
+font-weight: 700;
 }
