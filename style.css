@@ -1,5 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+body{
+    /* height: 100vh; */
+    background-color:#F1F8FF;
+    height: 100vh;
+}
+.navbar-nav{
+    /* float it to right */
+    margin-left: auto;
+    color: white;
+}
+.navbar-nav a{
+    color: white;
+}
+
+.main-bg{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(./images/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    /* position: relative; */
+    color: white;
+
+}
+.navbar-brand  .text-primary{
+    font-weight: 700;
+    color: #FEA116 !important;
+}
+.navbar-nav a{
+    font-size: 18px;
+}
+.navbar-nav .nav-link.active{
+    color: #FEA116;
+}
+.nav-link:hover{
+    color: #FEA116;
+}
+
+.panel .panel-heading{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.panel-body > .custom-btn{
+    background-color: #FEA116;
+    color: white;
+}
+
+.hero-image{
+    max-width: 500px;
+}
+.hero-image img{
+    max-width: 100%;
 }
