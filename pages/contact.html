@@ -44,17 +44,76 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav ml-auto">
-                <a class="nav-link active" href="../index.html">Home</a>
+                <a class="nav-link" href="../index.html">Home</a>
                 <a class="nav-link" href="menu.html">Menu</a>
                 <a class="nav-link" href="pictures.html">Pictures</a>
                 <a class="nav-link" href="about.html">Restaurant</a>
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
               </div>
             </div>
           </div>
         </nav>
       </header>
-      <section class="col-12 p-0 mt-3 mt-xxl-5"></section>
+      <section
+        class="col-lg-6 col-md-8 col-sm-12 mx-auto mb-3 p-0 mt-2 mt-xxl-2 bg-gradient"
+      >
+        <div class="section-tile text-center pt-3">
+          <h3 class="about-title border-bottom-1 border-warning">Contact Us</h3>
+        </div>
+
+        <div class="col-12 mx-auto">
+          <form class="px-5" method="get">
+            <div class="mb-3">
+              <label for="first-name" class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="first-name"
+                name="first-name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="form-label">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="last-name"
+                name="last-name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <select
+                class="form-select"
+                id="subject"
+                name="subject"
+                aria-label="Default select example"
+              >
+                <option selected value="0">Select your Subject</option>
+                <option value="1">General</option>
+                <option value="2">Reservation</option>
+                <option value="3">Technical</option>
+                <option value="4">Complaint</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="3"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-warning btn-lg text-white mx-auto form-btn"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- / -->

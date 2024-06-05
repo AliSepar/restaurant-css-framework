@@ -154,23 +154,12 @@ font-weight: 700;
 .custom-font{
     font-family: var(--font-secondary);
 }
-/* .section-tile::before {
-    position: absolute;
-    content: "";
-    width: 45px;
-    height: 2px;
-    top: 50%;
-    left: -55px;
-    margin-top: -1px;
-    background: var(--primary);
+
+
+
+/*////////////////////////////////////////////////////// */
+/* contact */
+.col form > .form-btn{
+    color: red;
+    background-color: #FEA116;
 }
-.section-tile::after{
-    position: absolute;
-    content: "";
-    width: 45px;
-    height: 2px;
-    top: 50%;
-    right: -55px;
-    margin-top: -1px;
-    background: var(--primary);
-} */
