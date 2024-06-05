@@ -99,3 +99,40 @@ body{
 .section-tile h1{
 font-weight: 700;
 }
+
+.nav-item .menu-tabs{
+    color: #FEA116;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-item .menu-tabs i{
+    padding-right: 5px;
+}
+.nav-item .menu-tabs:hover{
+    border-radius: 0px;
+    border-bottom: 2px solid #FEA116;
+}
+.nav-item .menu-tabs.active{
+    color: #FEA116;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #FEA116;
+}
+
+/* /////////////////////////// */
+/* picture */
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: #FEA116;
+}
+.fiex-row .col{
+    min-height: 200px;
+    /* height: auto; */
+}
+.fiex-row img{
+    max-width: 100%;
+    max-height: 100%;
+    /* height: auto;
+    width: auto; */
+    object-fit: contain;
+}
