@@ -17,6 +17,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="../style.css" />
   </head>
 
@@ -24,7 +28,9 @@
     <div class="loader"></div>
     <main class="container-xxl p-0 main-bg m-auto">
       <header class="col-12 m-a p-0">
-        <nav class="navbar navbar-expand-lg px-lg-5 px-md-4 px-sm-3">
+        <nav
+          class="navbar navbar-expand-lg px-lg-5 px-md-4 px-sm-3 animate__animated animate__fadeInDown"
+        >
           <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
               <h1 class="text-primary">
@@ -65,7 +71,9 @@
         <div class="col-12 mx-auto">
           <form class="px-5" method="get">
             <div class="row">
-              <div class="col-lg col-md col-sm-12 mb-3">
+              <div
+                class="col-lg col-md col-sm-12 mb-3 animate__animated animate__fadeInLeft"
+              >
                 <label for="first-name" class="form-label">First Name</label>
                 <input
                   type="text"
@@ -76,7 +84,9 @@
                   required
                 />
               </div>
-              <div class="col-lg col-md col-sm-12 mb-3">
+              <div
+                class="col-lg col-md col-sm-12 mb-3 animate__animated animate__fadeInRight"
+              >
                 <label for="last-name" class="form-label">Last Name</label>
                 <input
                   type="text"
@@ -88,7 +98,7 @@
                 />
               </div>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 animate__animated animate__fadeInUp">
               <label for="email-input" class="form-label">Email</label>
               <input
                 type="email"
@@ -99,7 +109,7 @@
                 required
               />
             </div>
-            <div class="mb-3">
+            <div class="mb-3 animate__animated animate__fadeInDown">
               <label for="subject" class="form-label">Subject</label>
               <select
                 class="form-select"
@@ -115,7 +125,7 @@
                 <option value="4">Complaint</option>
               </select>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 animate__animated animate__fadeInDown">
               <label for="message" class="form-label">Message</label>
               <textarea
                 class="form-control"
