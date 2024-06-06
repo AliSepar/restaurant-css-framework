@@ -26,3 +26,12 @@ Create a repository called restaurant-css-framework in which you must realise a 
   A page with a contact form containing the firstname, lastname, email, subject of the message (a drop-down list with multiple options), an area for the message itself and a send button with an icon. Each entry as a title in a semantically correct tag.
 
 # Screenshot
+
+# Technology
+
+- HTML/Css structure and style
+- Bootstrap for Style
+- [animate.style](https://animate.style/) for animation
+- [Font Awesome](https://fontawesome.com/) for Icons
+- [shortpixel.com](https://shortpixel.com/online-image-compression) for changing image type and size
+- [Google Map](https://www.google.com/maps/) for show the location
