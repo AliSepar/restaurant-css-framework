@@ -25,7 +25,18 @@ Create a repository called restaurant-css-framework in which you must realise a 
 - Contact
   A page with a contact form containing the firstname, lastname, email, subject of the message (a drop-down list with multiple options), an area for the message itself and a send button with an icon. Each entry as a title in a semantically correct tag.
 
+# Site
+
+You can visit site hear: [Link](https://alisepar.github.io/restaurant-css-framework/index.html)
+
 # Screenshot
+
+| Pages   | Screenshots                                                                                        |
+| ------- | -------------------------------------------------------------------------------------------------- |
+| Index   | [<img src="./screenshots/Restoran-index.png" width='700px'>](./screenshots/Restoran-index.png)     |
+| Menu    | [<img src="./screenshots/Restoran-menu.png" width='700px'>](./screenshots/Restoran-menu.png)       |
+| About   | [<img src="./screenshots/Restoran-about.png" width='700px'>](./screenshots/Restoran-about.png)     |
+| Contact | [<img src="./screenshots/Restoran-contact.png" width='700px'>](./screenshots/Restoran-contact.png) |
 
 # Technology
 
