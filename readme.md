@@ -27,7 +27,7 @@ Create a repository called restaurant-css-framework in which you must realise a 
 
 # Site
 
-You can visit site hear: [Link](https://alisepar.github.io/restaurant-css-framework/index.html)
+You can visit site here: [Live Link](https://alisepar.github.io/restaurant-css-framework/index.html)
 
 # Screenshot
 
@@ -46,3 +46,7 @@ You can visit site hear: [Link](https://alisepar.github.io/restaurant-css-framew
 - [Font Awesome](https://fontawesome.com/) for Icons
 - [shortpixel.com](https://shortpixel.com/online-image-compression) for changing image type and size
 - [Google Map](https://www.google.com/maps/) for show the location
+
+## Author
+
+**[Alisabah Separ](https://github.com/AliSepar)**
